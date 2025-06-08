@@ -1,20 +1,18 @@
-# Weaviate Multi Vector exmaple
+# Weaviate Multi Vector example
 
 🎯 Overview
 -----------
 
-This is a simple demo of how one can run Weaviate and ColPali (ColQwen2) model and perform similarity search over PDF files.
+This is a simple demo of how one can use Weaviate and ColPali (ColQwen2) models and perform similarity search over PDF files.
 
 📦 Requirements
 ----------------
 
-In order to be able to create Weaviate one needs at least:
-
 1. Docker
 2. Python3
 
-💡 Running
-----------
+💡 Prepare local environment
+----------------------------
 
 In order to prepare your environment, issue:
 
@@ -32,10 +30,8 @@ source .venv/bin/activate
 uv pip install -r requirements.txt
 ```
 
-📖 How to use notebooks
+📖 Examples
 ----------
-
-Examples:
 
 1. ColQwen2 example: ([colqwen2.ipynb](./colqwen2.ipynb))
 
