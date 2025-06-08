@@ -16,18 +16,20 @@ In order to be able to create Weaviate one needs at least:
 💡 Running
 ----------
 
-In order to run the setup one needs to issue:
-
-```sh
-docker compose up -d
-```
-
 In order to prepare your environment, issue:
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
 pip3 install -r requirements.txt
+```
+
+or using uv:
+
+```sh
+uv venv --python 3.13
+source .venv/bin/activate
+uv pip3 install -r requirements.txt
 ```
 
 📖 How to use notebooks
