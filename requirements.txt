@@ -1,0 +1,5 @@
+weaviate-client==4.15.0
+ipykernel==6.29.5
+torch==2.6.0
+colpali_engine==0.3.10
+pdf2image==1.17.0
