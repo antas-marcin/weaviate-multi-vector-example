@@ -29,7 +29,7 @@ or using uv:
 ```sh
 uv venv --python 3.13
 source .venv/bin/activate
-uv pip3 install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 📖 How to use notebooks
