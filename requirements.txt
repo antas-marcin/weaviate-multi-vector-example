@@ -1,4 +1,4 @@
-weaviate-client==4.15.0
+weaviate-client==4.16.4
 ipykernel==6.29.5
 torch==2.6.0
 colpali_engine==0.3.10
