@@ -1,3 +1,5 @@
+
+
 # Weaviate Multi Vector example
 
 🎯 Overview
@@ -28,6 +30,15 @@ or using uv:
 uv venv --python 3.13
 source .venv/bin/activate
 uv pip install -r requirements.txt
+```
+
+🐳 Start Weaviate
+-----------------
+
+To start the Weaviate instance using Docker Compose, run:
+
+```sh
+docker compose up -d
 ```
 
 📖 Examples
